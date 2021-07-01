@@ -1,0 +1,118 @@
+%% **************************** %%
+
+%%  --------  HEADERS --------  %%
+
+\documentclass[a4paper, onseide, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+%%  -------  PACKAGES  -------  %%
+
+% \usepackage{listings}  % Show code snippets
+% \usepackage{booktabs}
+% \usepackage{amsmath}
+% \usepackage{hyperref}
+% \usepackage{tipa}      % Use \texthalflenght
+% \usepackage{breakurl}
+% \usepackage{textcomp}  % Use \texttildelow
+\usepackage{xcolor}    % Use color in text
+\usepackage{setspace}  % Set given linstpace
+\usepackage{graphicx}  % Import images
+\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{sectsty}   % Sectionfont centering
+
+%%  ------- DEFINITIONS ------  %%
+
+\sectionfont{\centering\normalfont}
+\subsectionfont{\centering\normalfont}
+\subsubsectionfont{\centering\normalfont}
+
+\graphicspath{{images/}}
+\let\vec\mathbf % Bold Vectors
+\doublespacing
+
+%% **************************** %%
+
+
+
+%% **************************** %%
+%%  B E G I N - D O C U M E N T %%
+%% **************************** %%
+
+\begin{document}
+
+\title{Nice Galician Detectors}
+
+\author[1]{J. A. Garzón Heydt}
+\author[2]{M. Cruces Fernández}
+
+\affil[1, 2]{Universidade de Santiago de Compostela}
+
+\affil[ ]{\textit {\{juanantonio.garzon, miguel.cruces.fernandez\}@usc.es}}
+
+\maketitle 
+
+%%%% More flexible Title, uncomment here:
+%
+%  \begin{centering}
+%  
+%  %%% This is the USC Logo, uncomment:
+%  % \begin{minipage}[c]{0.4\linewidth}
+%  %     \centering
+%  % \includegraphics[height=5\baselineskip]{LogoUSC}
+%  % \end{minipage}
+%  
+%  	\vspace{1.5cm}
+%  
+%  	\noindent\rule{\textwidth}{1pt}  % -----------
+%      {\large\bfseries Nice Galician Detectors \par}
+%  	\noindent\rule{\textwidth}{1pt}  % -----------
+%    
+%  \vspace{0.5cm}
+%  
+%      Garzón Heydt, Juan Antonio
+%  
+%      Cruces Fernández, Miguel
+%  	
+%  	\vspace{0.5cm}
+%  
+%  	{\large\bfseries LabCAF / IGFAE  \par Universidade de Santiago de Compostela}
+%  
+%  	\vspace{1cm}
+%  
+%  \end{centering}
+
+
+\section{INTRODUCTION}
+Hello, Lux
+\subsection{HELLO POTATO}
+
+\subsubsection{HELLO POTATO}
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=3cm]{tux.jpg}
+  \caption{Hello World, I'm Tux from Linux Kernel.}  \label{fig:xray}
+\end{figure}
+
+\section{CONCLUSION}
+Bye
+
+
+
+\begin{thebibliography}{9}
+    \bibitem{yafonbar}
+    \textbf{Studies on the Composition and Energy of Secondary Cosmic Rays with the Tragaldabas Detector}\\
+    \textit{Yanis Fontela Barba}, departamento de Física de Partículas.\\
+    \textsf{Universidade de Santiago de Compostela}
+
+    \bibitem{joaneh}
+    \textbf{The Kalman Filter Technique applied to Track Fitting in GLAST}\\
+    \textit{Jose A. Hernando}, Santa Cruz Institute for Particle Physics.\\
+    \textsf{University of California. Santa Cruz}
+
+\end{thebibliography}
+
+
+\end{document}
+
